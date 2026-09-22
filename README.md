@@ -1,28 +1,57 @@
-# Hessam
+# Hessam Mousavi
 
-Backend engineer based in Istanbul. I started in sales and marketing, spent years in SEO, and eventually started building the tools I needed myself. That turned into products.
-
-I care about systems that don't break at 3am — clean architecture, honest error handling, and databases that stay fast as data grows. I use Node.js and TypeScript for most things, PostgreSQL for everything that matters, and Docker to make sure it runs the same everywhere.
-
----
-
-**What I've built:**
-
-- **[Kimland](https://github.com/hessam/kimland-overview)** — a production shop aggregator that tracks unlimited products across 8 fashion brands. Strategy pattern per brand, raw PostgreSQL with UPSERT conflict resolution, Prometheus metrics, circuit breakers for external API resilience.
-- **[Xtory](https://github.com/hessam/xtory)** — a live, open-source interactive history atlas of Greater Iran across 4,000 years. The constraint that shaped the whole build: no database, no server — everything file-based so it stays free to host and open to contribute.
-- **Accretion** — a WordPress performance and SEO platform in pre-launch. Install the plugin, point your domain, your site gets faster and ranks better. No changes to your workflow.
-- **CRM & quoting system** — built for my own e-commerce business when Excel stopped being enough. Full client lifecycle in one relational schema.
+**Technical Reliability & Growth Partner for Founder-Led AI & Creative Products**  
+*Turning fragile AI and creative prototypes into commercially dependable products with fewer failures and zero founder babysitting.*
 
 ---
 
-**Stack I reach for:**
+### What I Do
 
-`Node.js` `TypeScript` `PostgreSQL` `NestJS` `Docker` `Nginx` `Redis` `Prometheus` `Jest`
+I help founder-led AI, audio, and media platforms deliver reliable customer outcomes. When early demos break under real user inputs or scaling customer volume demands constant manual fixes, I step in to diagnose the bottleneck, build the evaluation and telemetry harness, and eliminate failure modes at the architecture level.
+
+```
+[ Problem Diagnosis ] ──> [ Evals & Telemetry ] ──> [ Architectural Fix ] ──> [ Verified Outcome ]
+```
 
 ---
 
-One thing I've learned building real products: starting without a clear architecture costs you three times as much later. I'd rather spend an extra day on structure than a week untangling spaghetti.
+### Three Core Problems I Solve
+
+| Challenge | Responsibility | Measurable Outcome |
+| :--- | :--- | :--- |
+| **"Users register but never finish their first output"** | Instrument the end-to-end customer journey, isolate UX/pipeline friction, and fix drop-off obstacles. | Higher first-time completion rate; faster activation. |
+| **"The demo works, but real customer inputs break it"** | Build representative evaluation suites, regression guardrails, and deterministic fallbacks for non-deterministic AI/media models. | Higher successful-task rate; drastic drop in customer recovery tickets. |
+| **"Every new customer creates more manual work for me"** | Eliminate manual founder interventions via resilient queue workers, error-budgeting, and self-healing pipelines. | Minimal support burden; predictable unit economics per delivery. |
 
 ---
 
-📬 [mousavihessam0@gmail,com] · Istanbul, Turkey 
+### Featured Systems & Case Studies
+
+- **[Voitomo Audio-Viz](https://github.com/hessam/voitomo-audioviz)** — *Voice-to-Motion Kinetic Typography & Visual DSP Runtime*  
+  Headless media processing engine coupling Remotion 3D WebGL shaders with sub-word acoustic alignment (Whisper + Librosa). Solves timing drift across frame-locked animations and eliminates rendering crashes under noisy real-world audio. Includes comprehensive benchmarks and Architecture Decision Records ([ADRs](https://github.com/hessam/voitomo-audioviz#--architecture-decision-records-adrs)).
+
+- **[Hermes Music DNA](https://github.com/hessam/hermes-music-dna)** — *Neural Audio Stem Separation & Quantitative Benchmark Suite*  
+  Evaluation harness around Mel-Band RoFormer neural models for stem extraction, formant trajectory analysis, and micro-timing groove profiling. Implements objective SNR/SDR scoring benchmarks to catch reconstruction regressions before deployment.
+
+- **[Iran Rulers](https://github.com/hessam/Iran-Rulers)** — *High-Density Interactive Historical Graph Engine*  
+  Zero-database, client-optimized network topology visualizing complex historical micro-dynasties. Demonstrates strict memory constraints, zero-latency state transitions, and responsive data-dense UX.
+
+---
+
+### Engineering Principles
+
+- **Deterministic Contracts over Prompt Tweaks:** Fragile LLM chains fail in production. I build typed schemas (Pydantic/Zod), schema validation, and fallback state machines.
+- **Evals Before Optimization:** You cannot improve what you do not measure. I build ground-truth evaluation suites before refactoring production pipelines.
+- **Respect for Creative Output Quality:** My background across audio engineering, video production, and software means I evaluate creative tools on both technical latency and aesthetic fidelity.
+
+---
+
+### Work With Me
+
+If your product suffers from broken user runs, fragile media exports, or manual operational fatigue, I offer a focused diagnostic and implementation sprint:
+
+- **Audit & Baseline:** Isolate recurring failure modes and define concrete success measures.
+- **Sprint Delivery:** Targeted architectural intervention + automated eval harness.
+- **Verification:** Verified reduction in failure rate and founder intervention hours.
+
+📬 **Contact:** [mousavi.hessam@gmail.com](mailto:mousavi.hessam@gmail.com) · [LinkedIn](https://www.linkedin.com/in/hessammousavi/) · Istanbul & Remote
